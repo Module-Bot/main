@@ -46,4 +46,4 @@ client.on('message', message => {
 
 
 
-Client.login(TOKEN);
+client.login(TOKEN);
