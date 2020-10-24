@@ -1,7 +1,7 @@
 //Import all the requirements
 const Discord = require('discord.js');
 const { TOKEN, PREFIX } = require('./config.json');
-const Client = new Discord.Client();
+const client = new Discord.Client();
 const fs = require("fs");
 
 //Next import all the commands from the commands folder
