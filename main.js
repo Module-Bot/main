@@ -27,7 +27,7 @@ client.on('message', message => {
     if (message.author.bot) return;
     
     //Get an array of arguments
-    const args = message.content.slice(tributeFile.PREFIX.length).split(/ +/);
+    const args = message.content.slice(PREFIX.length).split(/ +/);
     //Find the correct command
     const commandName = args.shift().toLowerCase();
     const command =
